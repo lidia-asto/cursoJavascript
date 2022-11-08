@@ -1,13 +1,14 @@
 // funtion cortavocales(texto){retur cantidadvocales}
 
 //contarVocales('eucalipto')//5
-function vocales (nombre){
+let texto="eucalipto"
+let contador=0
     let texto='eucalipto'
     if(vocales=="texto")
     total=eucalipto
     return vocales
 }
-console.log()
+console.log(vocales('5'))
 
  
 // funtion calculadora(num1,num2,operacion){retur total}
@@ -26,8 +27,14 @@ function calcular (num1,num2,operacion){
         total=num1+num2
     }
     if(operacion=="resta"){
-        total=num1+num2
+        total=num1-num2
+    }
+    if(operacion=="multiplicacion"){
+        total=num1*num2
+    }
+    if(operacion=="divicion"){
+        total=num1/num2
     }
     return total
 }
-console.log(calcular(45,12,"resta"))
+console.log(calcular(45,12,"divicion"))
