@@ -1,12 +1,18 @@
-numeroMes1
-switch(numeroMes)
-console.log("enero")
+numeroORDEN=1
+switch(numeroORDEN){
+case 1:
+    console.log("uno")
 break
 case 2:
-    console.log8("febrero")
-break
-case 3:
-    console.log(marzo)
+    console.log("dos")
     break
-    default:
-        console.log("error mes no encontrado")
+
+}
+vocal= "e"
+switch(vocal){
+    case "a" : case `e' :case "i :case `o`:case `u`:
+        console.log()
+        break
+        default
+        console
+}
